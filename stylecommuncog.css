@@ -36,8 +36,8 @@ nav ul li a#encours{
 }
 
 #logo{
-	height:14%;
-	width:15.5%;
+	height:auto;
+	max-width:100%;
 	position:absolute;
 	left : 10px; 
 	top : 10px;
