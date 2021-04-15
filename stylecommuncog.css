@@ -56,10 +56,7 @@ nav ul li a#encours{
 }
 
 #licence{
-	height: 30px;
-	position: absolute;
-	margin-right: 4cm;
-	margin-top: 2cm;
-	right: 10px;
-	top:0px;
+	text-anchor: right;
+	font-size: small; 
 }
+	
