@@ -1,0 +1,41 @@
+
+@import url('stylecommuncog.css');
+
+p {
+	text-align: justify;
+	margin-right: 4cm;
+	margin-left: 2cm;
+}
+
+#reponse{
+	display: none;
+}
+
+textarea, button{
+	margin-right: 4cm;
+	margin-left: 2cm;
+}
+
+h1{
+	margin-top: 4cm;
+}
+
+header{
+	text-align: center;
+	margin-bottom: 1cm;
+
+}
+
+.des-obj{
+	border: 1px solid black; 
+	padding: 5px;
+	margin-left: 0px;
+	margin-right: 4cm;
+}
+
+button{
+	font-size: 11pt;
+}
+
+
+

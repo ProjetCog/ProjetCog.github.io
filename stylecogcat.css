@@ -1,0 +1,18 @@
+
+@import url('stylecommuncog.css');
+
+h1{
+	margin-top: 4cm;
+	margin-bottom: 1cm;
+	text-align: center;
+}
+
+#contenu{
+	margin-left: 2cm;
+	margin-right: 4cm;
+}
+
+.fiches{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

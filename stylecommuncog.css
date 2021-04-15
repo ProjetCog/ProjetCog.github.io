@@ -1,0 +1,55 @@
+* {
+	font-family:'audimat'; 
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+
+nav ul{
+	padding: 3px 0;
+	margin: 10px 0px 10px 0px;
+	border-bottom: 1px solid #778;
+}
+
+nav ul li a{
+	padding: 3px 0.5em;
+	margin-left: 3px;
+	border: 1px solid #669;
+	border-bottom: none;
+	background: #ccf;
+	text-decoration: none;
+}
+
+nav ul li a#encours{
+	background: white;
+	border-bottom: 1px solid white;
+}
+
+#wrapper{
+	margin-right: 4cm;
+	margin-left: 2cm;
+	background-repeat: no-repeat;
+	background-image: url('imagefond.svg');
+	background-position: right;
+}
+
+#logo{
+	height:14%;
+	width:15.5%;
+	position:absolute;
+	left : 10px; 
+	top : 10px;
+	margin-left: 1.2cm;
+	margin-top: 1cm;
+}
+
+#licence{
+	height: 30px;
+	position: absolute;
+	margin-right: 4cm;
+	margin-top: 2cm;
+	right: 10px;
+	top:0px;
+}

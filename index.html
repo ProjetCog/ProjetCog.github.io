@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Intelligence(s), le temps de la remise en question</title>
+		<link rel="stylesheet" type="text/css" href="stylecogaccueil.css">
+
+		<!-- <script type="text/javascript" scr="afficher_cacher_div.js"></script> !-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  $("button").click(function(){
+			    $("#texte").toggle();
+			  });
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			<header>
+				<h1>Intelligence(s), le temps de la remise en question</h1>
+				<img id="logo" src="logo uga fond blanc.png"/>
+				<img id="licence" src="licence.png"/>
+			</header>
+
+			<nav>
+				<ul>
+					<li><a href="accueil.html" id="encours">Accueil</a></li>
+					<li><a href="categorie.html">Fiches</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="contenu">
+
+			<div id="garde">
+				<img src="cerveau">
+				<p>Berruet-Bié Anaïs, Faure Lora-line, Picard Marion, Troccaz Marine</p>
+			</div>
+
+
+			<button>Voir charte anti-plagiat</button>
+
+			<div id="texte">
+
+				<h4>Charte anti-plagiat</h4>
+				<p>
+					Nous, sous-signé.e.s BERRUET-BIE Anaïs, FAURE Lora-Line, PICARD Marion et TROCCAZ Marine, avons pris connaissance des obligations décrites dans la charte anti-plagiat, et nous nous engageons à nous y conformer strictement.
+				</p>
+
+				<p>Berruet-Bié Anais</p>
+				<img id="signature" src="signatureanais.jpg"/>
+				<p>Faure Lora-Line</p>
+				<img id="signature" src="signatureLL.png"/>
+				<p>Picard Marion</p>
+				<img id="signature" src="signaturemarion.png"/>
+				<p>Troccaz Marine</p>
+				<img id="signature" src="signaturemarine.png"/>
+			</div>
+
+			<script type="text/javascript">
+		    
+		        afficher_cacher('#texte');
+		    
+		    </script>
+		</div>
+		
+	</body>

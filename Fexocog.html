@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Intelligence(s), le temps de la remise en question</title>
+	<link rel="stylesheet" type="text/css" href="stylecogexercice.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("button").click(function(){
+	  	$("#reponse").toggle(); 	
+	   });
+      });
+	</script>
+</head>
+
+<body>
+
+
+	<div id="wrapper">
+
+		<header>
+			<h1>categorie(=grand titre)</h1>
+			<h2>titre(=sous titre)</h2>
+			<img id="logo" src="logo uga fond blanc.png"/>
+			<img id="licence" src="licence.png"/>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="categorie.html">Fiches</a></li>
+				<li><a href="">Fiche precédente</a></li>
+				<li><a href="Fexocog.html" id="encours">titre(=sous titre)</a></li>
+				<li><a href="">Fiche suivante</a></li>
+			</ul>
+		</nav>
+
+		<p class="des-obj">
+		descripteurs <br />objectifs d'apprentissage
+		</p>
+
+
+	</div>
+
+	<div id="contenu">
+	
+		<p id="introduction">introduction/paragraphe d'entré<p>
+
+		<p id="question">question</p>
+
+		<TEXTAREA rows=15 cols=123></TEXTAREA> 
+
+		<button>valider et afficher la réponse attendue</button>
+
+		<p id="reponse">reponse attendue</p>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+@import url('stylecommuncog.css');
+
+h1{
+	margin-top: 4cm;
+	margin-bottom: 1cm;
+	text-align: center;
+}
+
+#contenu{
+	margin-left: 2cm;
+	margin-right: 4cm;
+}
+
+#signature{
+	height: 15%;
+	width: 15%;
+}
+
+#garde{
+	text-align: center;
+}
+
+#garde img{
+	height: 400px;
+}
+
+#texte
+{
+	display: none;
+    border:1px solid #333333;
+    background:#eeeeee;
+    padding:10px;
+    color:#333333;
+}
+
+button{
+	font-size: 11pt;
+}
