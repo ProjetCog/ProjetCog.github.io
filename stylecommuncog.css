@@ -5,7 +5,13 @@
     	text-rendering: optimizeLegibility;
     	-webkit-font-smoothing: antialiased;
 }
-
+html { 
+  margin:0;
+  padding:0;
+  background: url(fondecrancerveau.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
 nav ul li{
 	list-style: none;
 	display: inline;
