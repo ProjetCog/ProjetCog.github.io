@@ -1,5 +1,5 @@
  * {
-	//font-family:'audimat';
+	/*font-family:'audimat';*/
 	font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
     	font-weight: 400;
     	text-rendering: optimizeLegibility;
@@ -10,21 +10,22 @@
   padding:0;
   background: url(fondecrancerveau.png) no-repeat center fixed; 
   -webkit-background-size: cover;  pour anciens Chrome et Safari 
-  background-size: cover; version standardisée */
-}
+  background-size: cover; version standardisée 
+}*/
 
 nav{
 	margin-left:2cm;
-	
-nav ul li{
-	list-style: none;
-	display: inline;
 }
 
 nav ul{
 	padding: 3px 0;
 	margin: 10px 0px 10px 0px;
 	border-bottom: 1px solid #778;
+}
+	
+nav ul li{
+	list-style: none;
+	display: inline;
 }
 
 nav ul li a{
