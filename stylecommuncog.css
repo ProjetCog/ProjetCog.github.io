@@ -8,10 +8,14 @@
 html { 
   margin:0;
   padding:0;
-  background: url(fondecrancerveau.png) no-repeat center fixed; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /*version standardisée */
+ /* background: url(fondecrancerveau.png) no-repeat center fixed; */
+ /* -webkit-background-size: cover; *//* pour anciens Chrome et Safari */
+ /* background-size: cover; *//*version standardisée */
 }
+
+nav{
+	margin-left=2cm;
+	
 nav ul li{
 	list-style: none;
 	display: inline;
