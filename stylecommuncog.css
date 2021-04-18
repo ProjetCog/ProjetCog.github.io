@@ -45,7 +45,7 @@ nav ul li a#encours{
 	background-position: right;
 }
 
-/*#logo{
+#logo{
 	height:10%;
 	width:15.5%;
 	position:absolute;
@@ -53,7 +53,7 @@ nav ul li a#encours{
 	top : 10px;
 	margin-left: 1.2cm;
 	margin-top: 1cm;
-}*/
+}
 
 /*#licence{
 	text-anchor: right;
@@ -71,19 +71,10 @@ nav ul li a#encours{
 .des-obj, .ressources{
 	border: 1px solid black; 
 	padding: 5px;
-	margin-left: 2cm;
-	margin-right: 4cm;
+	/*margin-left: 2cm;
+	margin-right: 4cm;*/
 }
 
-#logo{
-	height:14%;
-	width:16%;
-	position:absolute;
-	left : 10px; 
-	top : 10px;
-	margin-left: 1.2cm;
-	margin-top: 1cm;
-}
 
 #licence{
 	height: 30px;
