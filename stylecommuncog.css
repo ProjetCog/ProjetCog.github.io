@@ -1,5 +1,5 @@
-/* * {
-	font-family:'audimat';
+ * {
+	/*font-family:'audimat';*/
 	font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
     	font-weight: 400;
     	text-rendering: optimizeLegibility;
@@ -11,10 +11,6 @@ html {
   background: url(fondecrancerveau.png) no-repeat center fixed; 
   -webkit-background-size: cover;  pour anciens Chrome et Safari 
   background-size: cover; version standardisée 
-}
-
-nav{
-	margin-left:2cm;
 }
 	
 nav ul li{
@@ -66,15 +62,15 @@ nav ul li a#encours{
 }
 
 
-.des-obj, .ressources{
+/*.des-obj, .ressources{
 	border: 1px solid black; 
 	padding: 5px;
 	margin-left: 2cm;
 	margin-right: 4cm;
-}
+}*/
 
 
-#licence{
+/*#licence{
 	height: 30px;
 	position: absolute;
 	margin-right: 4cm;
@@ -88,74 +84,4 @@ iframe{
 	margin-left: 2cm;
 }*/
 
-* {
-	font-family:'audimat'; 
-}
 
-nav{
-	margin-left: 2cm;
-}
-
-nav ul li{
-	list-style: none;
-	display: inline;
-}
-
-nav ul{
-	padding: 3px 0;
-	margin: 10px 0px 10px 0px;
-	border-bottom: 1px solid #778;
-}
-
-nav ul li a{
-	padding: 3px 0.5em;
-	margin-left: 3px;
-	border: 1px solid #669;
-	border-bottom: none;
-	background: #ccf;
-	text-decoration: none;
-}
-
-nav ul li a#encours{
-	background: white;
-	border-bottom: 1px solid white;
-}
-
-#wrapper{
-	/*margin-right: 4cm;
-	margin-left: 2cm;*/
-	background-repeat: no-repeat;
-	background-image: url('imagefond.svg');
-	background-position: right;
-}
-
-.des-obj, .ressources{
-	border: 1px solid black; 
-	padding: 5px;
-	margin-left: 2cm;
-	margin-right: 4cm;
-}
-
-#logo{
-	height:14%;
-	width:16%;
-	position:absolute;
-	left : 10px; 
-	top : 10px;
-	margin-left: 1.2cm;
-	margin-top: 1cm;
-}
-
-#licence{
-	height: 30px;
-	position: absolute;
-	margin-right: 4cm;
-	margin-top: 2cm;
-	right: 10px;
-	top:0px;
-}
-
-iframe{
-	margin-right: 4cm;
-	margin-left: 2cm;
-}
