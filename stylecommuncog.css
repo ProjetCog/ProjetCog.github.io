@@ -8,9 +8,9 @@
 html { 
   margin:0;
   padding:0;
-  background: url(fondecrancerveau.png) no-repeat center fixed; 
+ /* background: url(fondecrancerveau.png) no-repeat center fixed; 
   -webkit-background-size: cover;  pour anciens Chrome et Safari 
-  background-size: cover; version standardisée 
+  background-size: cover; version standardisée */
 }
 	
 nav ul li{
@@ -47,8 +47,8 @@ nav ul li a#encours{
 }
 
 #logo{
-	height:10%;
-	width:15.5%;
+	height:14%;
+	width:16%;
 	position:absolute;
 	left : 10px; 
 	top : 10px;
@@ -56,21 +56,20 @@ nav ul li a#encours{
 	margin-top: 1cm;
 }
 
-#licence{
+/*#licence{
 	text-anchor: right;
 	font-size: 15px; 
-}
-
-
-/*.des-obj, .ressources{
-	border: 1px solid black; 
-	padding: 5px;
-	margin-left: 2cm;
-	margin-right: 4cm;
 }*/
 
 
-/*#licence{
+.des-obj, .ressources{
+	border: 1px solid black; 
+	padding: 5px;
+	margin-left: 0cm;
+}*/
+
+
+#licence{
 	height: 30px;
 	position: absolute;
 	margin-right: 4cm;
@@ -79,7 +78,7 @@ nav ul li a#encours{
 	top:0px;
 }
 
-iframe{
+/*iframe{
 	margin-right: 4cm;
 	margin-left: 2cm;
 }*/
