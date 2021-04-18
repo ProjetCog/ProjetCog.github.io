@@ -38,14 +38,14 @@ nav ul li a#encours{
 }
 
 #wrapper{
-	margin-right: 4cm;
-	margin-left: 2cm;
+	/*margin-right: 4cm;
+	margin-left: 2cm;*/
 	background-repeat: no-repeat;
 	background-image: url('imagefond.svg');
 	background-position: right;
 }
 
-#logo{
+/*#logo{
 	height:10%;
 	width:15.5%;
 	position:absolute;
@@ -53,26 +53,26 @@ nav ul li a#encours{
 	top : 10px;
 	margin-left: 1.2cm;
 	margin-top: 1cm;
-}
+}*/
 
 /*#licence{
 	text-anchor: right;
 	font-size: 15px; 
 }*/
-#licence{
+/*#licence{
 	height: 30px;
 	position: absolute;
 	margin-right: 4cm;
 	margin-top: 2cm;
 	right: 10px;
 	top:0px;
-}
+}*/
 
 .des-obj, .ressources{
 	border: 1px solid black; 
 	padding: 5px;
-	/*margin-left: 2cm;
-	margin-right: 4cm;*/
+	margin-left: 2cm;
+	margin-right: 4cm;
 }
 
 #logo{
