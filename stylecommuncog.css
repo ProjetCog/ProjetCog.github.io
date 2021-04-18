@@ -16,16 +16,16 @@
 nav{
 	margin-left:2cm;
 }
+	
+nav ul li{
+	list-style: none;
+	display: inline;
+}
 
 nav ul{
 	padding: 3px 0;
 	margin: 10px 0px 10px 0px;
 	border-bottom: 1px solid #778;
-}
-	
-nav ul li{
-	list-style: none;
-	display: inline;
 }
 
 nav ul li a{
