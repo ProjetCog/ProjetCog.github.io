@@ -15,6 +15,12 @@ h1{
 	text-align: center;
 }
 
+#wrapper{
+	background-repeat: no-repeat;
+	background-image: url('imagefond.svg');
+	background-position: right;
+}
+
 #contenu{
 	margin-left: 2cm;
 	margin-right: 4cm;
