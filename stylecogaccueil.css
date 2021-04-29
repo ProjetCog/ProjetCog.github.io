@@ -49,3 +49,9 @@ h1{
 button{
 	font-size: 11pt;
 }
+
+#logo
+{
+	max-width: 100%;
+    height: auto;
+}
