@@ -57,8 +57,9 @@ nav ul li a#encours{
 
 
 #logo{
-	max-width: 15%;
+	max-width: 10%;
    	height: auto;
+	position:absolute;
 	margin-top:2cm;
 	margin-left:4cm;
 }
