@@ -1,6 +1,14 @@
 
 @import url('stylecommuncog.css');
 
+html { 
+  margin:0;
+  padding:0;
+  background: url(bg.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
 h1{
 	margin-top: 4cm;
 	margin-bottom: 1cm;
