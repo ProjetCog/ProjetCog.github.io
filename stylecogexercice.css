@@ -48,3 +48,10 @@ header{
 	margin-left: 2cm;
 }
 
+textarea{
+	position: relative;
+	margin-left:2cm;
+	width: 60%;
+	height: 220%;
+}
+
