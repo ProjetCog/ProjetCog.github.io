@@ -11,14 +11,15 @@
 
 			let togg1 = document.getElementById("togg1");
 			let togg2 = document.getElementById("togg2");
+			let togg3 = document.getElementById("togg3");
 			let d1 = document.getElementById("d1");
 			let d2 = document.getElementById("d2");
+			let d3 = document.getElementById("d3");
 			togg1.addEventListener("click", () => {
 			  if(getComputedStyle(d1).display != "none"){
 			    d1.style.display = "none";
-			  } else {
+			  } else if {
 			    d1.style.display = "block";
-			  }
 			})
 
 			function togg(){
@@ -29,6 +30,16 @@
 			  }
 			};
 			togg2.onclick = togg;
+
+			function toggBis() {
+			if(getComputedStyle(d3).display != "none"){
+			    d3.style.display = "none";
+			  } else {
+			    d3.style.display = "block";
+			  }
+			};
+			togg3.onclick = toggBis;
+
 		}
 	</script>
 
@@ -48,7 +59,7 @@
 
 		<nav>
 			<ul> <!--acces aux autres fiches par lien-->
-				<li><a href="index.html">Accueil</a></li>
+				<li><a href="accueil.html">Accueil</a></li>
 				<li><a href="categorie.html">Fiches</a></li>
 				<li><a href="">Fiche precédente</a></li>
 				<li><a href="F4.html" id="encours">Approche GCTA pour déterminer l'héritabilité de l'intelligence</a></li>
@@ -101,7 +112,7 @@
 			<p id="question">Un geai peut-il représenter un modèle animal, si oui pourquoi ?</p>
 
 			<TEXTAREA id="ta" rows=8 cols=233></TEXTAREA>
-			<input id="togg2" type="button" value="valider et afficher la réponse attendue" />
+			<input id="togg3" type="button" value="valider et afficher la réponse attendue" />
 			<div id="d3">
 				<p id="repo">Le principal problème est la validité écologique. Le geai des chênes, dans la nature, n’utilise pas d’outils, ni même en captivité. Ce n’est pas un comportement naturel, il ne peut provenir que d’un apprentissage ou d’un conditionnement. Ce n’est donc pas une démonstration d’intelligence couramment observable parmi les individus de cette espèce même si elle permet de montrer qu’un tel comportement et niveau de traitement existe chez les oiseaux. Un autre facteurs est la différence inter et intra individuelle, les geais peuvent à un moment donné peuvent ne pas avoir la motivation de mettre des cailloux dans un tube. Tous les geais ne réagissent pas de la même façon à la nouveauté ou à un changement d’environnement.</p>
 
@@ -111,7 +122,7 @@
 		</div>
 
 		<div class="ressources"> 
-			<p id="sources">Requête : GCTA + heritability + twins</p> 
+			<p id="sources">Requête : </p> 
 			<p id="sources" style="text-indent: 20px">Balter, M. (2016, 22 juillet). Meet the Bird Brainiacs : Eurasian Jay. Audubon <a href=" https://www.audubon.org/magazine/march-april-2016/meet-bird-brainiacs-eurasian-jay"> https://www.audubon.org/magazine/march-april-2016/meet-bird-brainiacs-eurasian-jay  </a></p>
 			<p id="sources" style="text-indent: 20px">Barrett, M. (Réalisateur). (2014). ​Inside the animal mind. Épisode 2 : The problem solvers [Documentaire].Graham Russell et Jacqueline Smith. <a href=" https://youtu.be/nLpGzwAscrA
 			"> https://youtu.be/nLpGzwAscrA
