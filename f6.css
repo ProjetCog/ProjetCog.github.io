@@ -1,0 +1,73 @@
+
+@import url('stylecommuncog.css');
+
+p {
+	text-align: justify;
+	line-height: 1.5;
+	margin-right: 4cm;
+	margin-left: 2cm;
+}
+
+#reponse{
+	display: none;
+	margin-bottom: 1cm;
+}
+
+textarea, button{
+	margin-right: 4cm;
+	margin-left: 2cm;
+	margin-bottom: 0.5cm;
+}
+
+h1{
+	margin-top: 4cm;
+}
+
+header{
+	text-align: center;
+	margin-bottom: 1cm;
+
+}
+
+.des-obj{
+	border: 1px solid black; 
+	padding: 5px;
+	margin-left: 2cm;
+	margin-right: 4cm;
+}
+
+button{
+	font-size: 11pt;
+	margin-bottom: 0.5cm;
+
+}
+
+#logo
+{
+	max-width: 100%;
+    height: auto;
+}
+
+.biais:hover
+{
+	opacity:1;
+}
+
+#question{
+	font-weight: bold;
+}
+
+.gras{
+	font-weight: bold;
+}
+
+#tableau
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.resultats
+{
+	text-align: center;
+}
