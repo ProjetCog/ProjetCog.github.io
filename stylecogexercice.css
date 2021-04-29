@@ -48,7 +48,6 @@ textarea{
 	width: 60%;
 	height: 220%;
 }
-/*pour la F1
 
 .echelle, .resultats{
 	display: inline-block;
@@ -61,7 +60,7 @@ textarea{
 {
 	margin-top: 10px;
 	margin-left: 5cm;
-}*/
+}
 textarea, button{
 	margin-right: 4cm;
 	margin-left: 2cm;
