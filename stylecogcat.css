@@ -20,8 +20,9 @@ h1{
 	margin-right: 4cm;
 }
 
-#logo {
-	max-width: 80%;
+#logo
+{
+	max-width: 100%;
     height: auto;
 }
 
