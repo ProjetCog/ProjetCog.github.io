@@ -28,12 +28,11 @@ h1{
 	width: 15%;
 }
 
-#garde{
-	text-align: center;
-}
 
-#garde img{
-	height: 400px;
+#contenu{
+	text-align: center;
+	position: absolute;
+	bottom: 0;
 }
 
 #texte
