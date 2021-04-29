@@ -38,7 +38,6 @@ nav ul li a#encours{
 
 #wrapper{
 	margin-right: 4cm;
-	/*margin-left: 2cm;*/
 	
 }
 
@@ -68,7 +67,7 @@ nav ul li a#encours{
 	height: 30px;
 	position: absolute;
 	margin-right: 4cm;
-	margin-top: 2cm;
+	margin-top: 3cm;
 	right: 10px;
 	top:0px;
 }
