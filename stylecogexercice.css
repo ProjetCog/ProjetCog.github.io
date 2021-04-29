@@ -7,11 +7,11 @@ p {
 	margin-left: 2cm;
 }
 
-#reponse{
+#d1,#d2{
 	display: none;
 }
 
-textarea, button{
+textarea, #togg1,#togg2{
 	margin-right: 4cm;
 	margin-left: 2cm;
 }
@@ -26,21 +26,13 @@ header{
 
 }
 
-.des-obj{
-	border: 1px solid black; 
-	padding: 5px;
-	margin-left: 0px;
-	margin-right: 4cm;
-}
 
-button{
+#togg1,#togg2{
 	font-size: 11pt;
 }
 
-#logo
-{
-	max-width: 100%;
-    height: auto;
+#graphique{
+	height: 300px;
+	margin-left: 2cm;
 }
-
 

@@ -4,7 +4,7 @@
 <head>
 	<title>Intelligence(s), le temps de la remise en question</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylecogF4.css">
+	<link rel="stylesheet" type="text/css" href="stylecogexercice.css">
 	
 	<script>
 		onload=function(){
@@ -48,11 +48,11 @@
 
 		<nav>
 			<ul> <!--acces aux autres fiches par lien-->
-				<li><a href="index.html">Accueil</a></li>
+				<li><a href="accueil.html">Accueil</a></li>
 				<li><a href="categorie.html">Fiches</a></li>
 				<li><a href="">Fiche precédente</a></li>
 				<li><a href="F4.html" id="encours">Approche GCTA pour déterminer l'héritabilité de l'intelligence</a></li>
-				<li><a href="">Fiche suivante</a></li>
+				<li><a href="F3.html">Fiche suivante</a></li>
 			</ul>
 		</nav>
 
@@ -67,7 +67,7 @@
 		<p id="introduction">Cette étude a pour but initial de tester l'hypothèse de l’influence génétique sur les problèmes de comportement de l'enfant. Comme le point qui nous intéresse est l’intelligence, seuls les résultats concernant le facteur g seront nécessaires. Les variables taille et poids (respectivement ‘height’ et ‘weight’) seront considérées comme des variables contrôles.<br />
 		“Les données sur les problèmes de comportement de 2 500 paires de jumeaux de 12 ans représentatifs du Royaume-Uni ont été utilisées dans les analyses de jumeaux ; les analyses d'ADN étaient basées sur un membre de la paire de jumeaux avec des données de génotype pour 1,7 millions de marqueurs d'ADN.” [traduit par deepl] <span class="spip_note_ref">&nbsp;[<a href='#nb1' class='spip_note' rel='footnote' title='citation 1' id='nh1'>1</a>]</span><br/>
 		L'influence génétique de l'ADN a été estimée à l'aide de l'analyse des traits complexes à l'échelle du génome (GCTA) qui consiste à comparer une matrice de similarité génomique par paire à une matrice de similarité phénotypique par paire à l'aide d'un modèle linéaire mixte à effets aléatoires. Tous les phénotypes ont été régressés en fonction de l'âge et du sexe avant l'analyse.<br/>
-		Les estimations de l'héritabilité des jumeaux ont été basées sur l'ajustement standard des modèles de jumeaux. Les différences de corrélations intra-paires pour les jumeaux monozygotes et dizygotes sont utilisées pour répartir la variance entre les effets génétiques et environnementaux. On considère que la variance est attribuée à une influence génétique additive lorsque les corrélations des jumeaux monozygotes  sont plus élevées que celles des jumeaux dizygotes.
+		Les estimations de l'<B>héritabilité</B> des jumeaux ont été basées sur l'ajustement standard des modèles de jumeaux. Les différences de corrélations intra-paires pour les jumeaux monozygotes et dizygotes sont utilisées pour répartir la variance entre les effets génétiques et environnementaux. On considère que la variance est attribuée à une influence génétique additive lorsque les corrélations des jumeaux monozygotes  sont plus élevées que celles des jumeaux dizygotes.
 		<br/>
 		<br/>Graphiques représentant l’estimation de l’héritabilité pour chaque approche : </p>
 
@@ -75,29 +75,32 @@
 
 		<div id="questions">
 
-			<p id="question">Quel est l'intérêt de cette étude ? (pourquoi utiliser une approche GCTA ?)</p>
+			<p id="question">Quel est l'intérêt de cette étude ? </p>
 
-			<TEXTAREA id="ta" rows=8 cols=123></TEXTAREA> <!--zone de texte pour ecrire réponse-->
+			<TEXTAREA id="ta" rows=8 cols=233></TEXTAREA> <!--zone de texte pour ecrire réponse-->
 			<input id="togg1" type="button" value="valider et afficher la réponse attendue" />
 			<div id="d1">
-				<p id="repo">Cette étude a pour but de déterminer les antécédents de l’intelligence et notamment la part de la génétique grâce à l’héritabilité. De nombreuses études sur les jumeaux ont déjà été réalisées mais ont parfois été contestées car elles font des hypothèses qui ne sont pas toujours vérifiées (-> trouver contestation - approfondir). Cette étude permet donc de calculer l’héritabilité à partir du génome directement et de comparer les résultats avec ceux obtenus par les études de jumeaux.</p>
+				<p id="repo">Cette étude a pour but de déterminer les antécédents de l’intelligence et notamment la part de la génétique en estimant l’héritabilité de l'intelligence. De nombreuses études sur les jumeaux ont déjà été réalisées mais ont parfois été contestées pour leurs hypothèses pas toujours vérifiées. Déterminer l’héritabilité par une approche génomique directement (GCTA) permet d’utiliser une approche indépendante pour pouvoir comparer les résultats obtenus avec ceux obtenus par les études de jumeaux.</p>
 			</div>
 
 			<p id="question">Quel bilan critique pouvez-vous faire de cette étude ?</p>
 
-			<TEXTAREA id="ta" rows=8 cols=123></TEXTAREA>
+			<TEXTAREA id="ta" rows=8 cols=233></TEXTAREA>
 			<input id="togg2" type="button" value="valider et afficher la réponse attendue" />
 			<div id="d2">
-				<p id="repo">points positifs : l’échantillon -> représentativité de la pop, variables contrôle. <br/>
-				Points négatifs : étude sur l’héritabilité pour déterminer antécédents de l’intelligence ne tient pas compte de l’interaction génétique - environnement L'analyse GCTA estime uniquement l'influence génétique additive, de sorte que les effets non additifs (interaction gène-gène et gène-environnement) ne sont pas non plus pris en compte.</p>
+				<p id="repo">Le gros point positif de cette étude réside dans le choix de l’échantillon : l’étude est réalisée sur 5000 participants (2500 paires de jumeaux) issus d’une étude longitudinale. Les données utilisées étaient tirées du même échantillon pour chaque approche (‘twin analysis’ et ‘GCTA’) permettant une comparaison plus précise des résultats. <br/>
+				Cependant, cette étude considère l’intelligence uniquement par le facteur g malgré l’émergence de théories récentes remettant en doute l’existence d’une seule intelligence pour des intelligences multiples. Si l’on considère tout de même que l’intelligence est unique, l’étude sur l’héritabilité ne permet pas de  déterminer réellement les antécédents de l’intelligence. En effet, elle ne tient pas compte de l’interaction génétique-environnement. L'analyse GCTA estime uniquement l'influence génétique additive, de sorte que les effets non additifs (interaction gène-gène et gène-environnement) ne sont pas non plus pris en compte. On peut observer des corrélations plus basses avec l’approche GCTA qu’avec l’approche gémellaire, ce qui témoigne que l'étude du génome ne capte pas toutes les variations génétiques.
+
 			</div>
 
 
 		</div>
 
-		<p class="ressources"> Requête : GCTA + heritability  + twins <br /> Trzaskowski, M., Dale, P. S., & Plomin, R. (2013). No Genetic Influence for Childhood Behavior Problems From DNA Analysis. Journal of the American Academy of Child & Adolescent Psychiatry, 52(10), 1048–1056.e3. <a href="https://doi.org/10.1016/j.jaac.2013.07.016">https://doi.org/10.1016/j.jaac.2013.07.016 </a><br/> 
-		AFIS. (2020, 16 juin). Intelligence (5/8) : L’intelligence est génétique ? [extrait de la conférence  "Infos et Intox sur l'intelligence" par Ramus, F.]. YouTube. <a href="https://www.youtube.com/watch?v=bKIe-JNnyXM&list=PLXuvhHEXJGmw7sC6vdLMhGQItlF7T4op6&index=5">https://www.youtube.com/watch?v=bKIe-JNnyXM&list=PLXuvhHEXJGmw7sC6vdLMhGQItlF7T4op6&index=5</a>
-		</p>
+		<div class="ressources"> 
+			<p id="sources">Requête : GCTA + heritability + twins</p> 
+			<p id="sources" style="text-indent: 20px">Trzaskowski, M., Dale, P. S., & Plomin, R. (2013). No Genetic Influence for Childhood Behavior Problems From DNA Analysis. Journal of the American Academy of Child & Adolescent Psychiatry, 52(10), 1048–1056.e3. <a href="https://doi.org/10.1016/j.jaac.2013.07.016">https://doi.org/10.1016/j.jaac.2013.07.016 </a></p>
+			<p id="sources" style="text-indent: 20px">AFIS. (2020, 16 juin). Intelligence (5/8) : L’intelligence est génétique ? [extrait de la conférence  "Infos et Intox sur l'intelligence" par Ramus, F.]. YouTube. <a href="https://www.youtube.com/watch?v=bKIe-JNnyXM&list=PLXuvhHEXJGmw7sC6vdLMhGQItlF7T4op6&index=5">https://www.youtube.com/watch?v=bKIe-JNnyXM&list=PLXuvhHEXJGmw7sC6vdLMhGQItlF7T4op6&index=5</a></p>
+		</div>
 
 		<p><span class="spip_note_ref">[<a href='#nh1' class='spip_note' title='Note 1' rev='footnote' id="nb1">1</a>]&nbsp;</span>Trzaskowski, Dale, No Genetic Influence for Childhood Behavior Problems From DNA Analysis. Journal of the American Academy of Child & Adolescent Psychiatry, 52(10), p1048–1056</p>
 

@@ -21,14 +21,8 @@ header{
 .des-obj{
 	border: 1px solid black; 
 	padding: 5px;
-	margin-left: 0px;
+	margin-left: 2cm;
 	margin-right: 4cm;
-}
-
-#logo
-{
-	max-width: 100%;
-    height: auto;
 }
 
 

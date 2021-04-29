@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="stylecogexercice.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script>
+	<script> //script permettant l'affichage du paragraphe correspondant à la réponse attendue en cliquant sur le bouton
 	$(document).ready(function(){
 	  $("button").click(function(){
 	  	$("#reponse").toggle(); 	
@@ -28,8 +28,8 @@
 		</header>
 
 		<nav>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
+			<ul> <!--acces aux autres fiches par lien-->
+				<li><a href="accueil.html">Accueil</a></li>
 				<li><a href="categorie.html">Fiches</a></li>
 				<li><a href="">Fiche precédente</a></li>
 				<li><a href="Fexocog.html" id="encours">titre(=sous titre)</a></li>
@@ -50,11 +50,13 @@
 
 		<p id="question">question</p>
 
-		<TEXTAREA rows=15 cols=123></TEXTAREA> 
+		<TEXTAREA rows=15 cols=123></TEXTAREA> <!--zone de texte pour ecrire réponse-->
 
 		<button>valider et afficher la réponse attendue</button>
 
 		<p id="reponse">reponse attendue</p>
+
+		<p id="ressources"> Requête : <br /> Sources :</p>
 
 	</div>
 </body>
