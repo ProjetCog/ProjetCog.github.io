@@ -16,12 +16,6 @@ p {
 	margin-left: 2cm;
 }
 
-#wrapper{
-	background-repeat: no-repeat;
-	background-image: url('imagefond.svg');
-	background-position: right;
-}
-
 #reponse{
 	display: none;
 	margin-bottom: 1cm;
