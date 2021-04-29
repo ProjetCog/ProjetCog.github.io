@@ -49,14 +49,18 @@ textarea{
 	height: 220%;
 }
 /*pour la F1*/
-div.echelle{
+
+.echelle, .resultats{
 	display: inline-block;
 	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-#reponse{
-	display: none;
-	margin-bottom: 1cm;
+#tableau
+{
+	margin-top: 10px;
+	margin-left: 5cm;
 }
 textarea, button{
 	margin-right: 4cm;
