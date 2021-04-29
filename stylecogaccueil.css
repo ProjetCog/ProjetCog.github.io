@@ -18,6 +18,7 @@ h1{
 #contenu{
 	margin-left: 2cm;
 	margin-right: 4cm;
+	margin-top: 15cm
 }
 
 #signature{
@@ -27,7 +28,6 @@ h1{
 
 #garde{
 	text-align: center;
-	margin-bottom:5cm;
 }
 
 #garde img{
