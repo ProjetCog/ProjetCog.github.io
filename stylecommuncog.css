@@ -35,9 +35,7 @@ nav ul li a#encours{
 #wrapper{
 	margin-right: 4cm;
 	/*margin-left: 2cm;*/
-	background-repeat: no-repeat;
-	background-image: url('imagefond.svg');
-	background-position: right;
+	
 }
 
 .des-obj, .ressources{
