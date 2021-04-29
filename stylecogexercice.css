@@ -49,6 +49,11 @@ textarea{
 	height: 220%;
 }
 /*pour la F1*/
+div.echelle{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 #reponse{
 	display: none;
 	margin-bottom: 1cm;
@@ -57,11 +62,5 @@ textarea, button{
 	margin-right: 4cm;
 	margin-left: 2cm;
 	margin-bottom: 0.5cm;
-}
-.des-obj{
-	border: 1px solid black; 
-	padding: 5px;
-	margin-left: 2cm;
-	margin-right: 4cm;
 }
 
