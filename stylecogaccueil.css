@@ -18,9 +18,12 @@ h1{
 #contenu{
 	margin-left: 2cm;
 	margin-right: 4cm;
-	position:relative;
-	float: bottom;
+	height:15cm;
 }
+
+#contenu p{
+	position: relative;
+	float:bottom;
 
 #signature{
 	height: 15%;
