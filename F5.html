@@ -8,7 +8,6 @@
 	
 	<script>
 		onload=function(){
-
 			let togg1 = document.getElementById("togg1");
 			let togg2 = document.getElementById("togg2");
 			let togg3 = document.getElementById("togg3");
@@ -18,8 +17,9 @@
 			togg1.addEventListener("click", () => {
 			  if(getComputedStyle(d1).display != "none"){
 			    d1.style.display = "none";
-			  } else if {
+			  } else {
 			    d1.style.display = "block";
+			  }
 			})
 
 			function togg(){
@@ -31,15 +31,14 @@
 			};
 			togg2.onclick = togg;
 
-			function toggBis() {
-			if(getComputedStyle(d3).display != "none"){
+			function toggb(){
+			  if(getComputedStyle(d3).display != "none"){
 			    d3.style.display = "none";
 			  } else {
 			    d3.style.display = "block";
 			  }
 			};
-			togg3.onclick = toggBis;
-
+			togg3.onclick = toggb;
 		}
 	</script>
 
