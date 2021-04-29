@@ -12,6 +12,9 @@ h1{
 	margin-right: 4cm;
 }
 
+#consigne {
+	border :solid 2px black;
+
 .fiches{
 	margin-top: 10px;
 	margin-bottom: 10px;
