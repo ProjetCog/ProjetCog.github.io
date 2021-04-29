@@ -8,12 +8,6 @@ html {
   background-size: cover; /* version standardisée */
 }
 
-#wrapper{
-	background-repeat: no-repeat;
-	background-image: url('imagefond.svg');
-	background-position: right;
-}
-
 p {
 	text-align: justify;
 	margin-right: 4cm;
