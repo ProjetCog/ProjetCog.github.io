@@ -1,5 +1,6 @@
 
 @import url('stylecommuncog.css');
+
 html { 
   margin:0;
   padding:0;
@@ -8,17 +9,17 @@ html {
   background-size: cover; /* version standardisée */
 }
 
-#wrapper{
-	background-repeat: no-repeat;
-	background-image: url('imagefond.svg');
-	background-position: right;
-}
-
 p {
 	text-align: justify;
 	line-height: 1.5;
 	margin-right: 4cm;
 	margin-left: 2cm;
+}
+
+#wrapper{
+	background-repeat: no-repeat;
+	background-image: url('imagefond.svg');
+	background-position: right;
 }
 
 #reponse{
@@ -32,9 +33,8 @@ textarea, button{
 	margin-bottom: 0.5cm;
 }
 
-div{
-	display: inline-block;
-	vertical-align: middle;
+h1{
+	margin-top: 4cm;
 }
 
 header{
@@ -55,27 +55,20 @@ button{
 
 }
 
-
-.biais:hover
-{
-	opacity:1;
+div{
+	display: inline-block;
+	vertical-align: middle;
 }
 
-#question{
-	font-weight: bold;
-}
-
-.gras{
-	font-weight: bold;
-}
 
 #tableau
 {
 	margin-top: 10px;
-	margin-left:5cm;
+	margin-left: 5cm;
 }
 
 .resultats
 {
 	text-align: center;
+	margin-bottom: 20px;
 }
